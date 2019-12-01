@@ -1,13 +1,6 @@
-# Default Evaluate Options
+# Moved
 
-This repository provides default evaluation options for use with Realms and SES.
-
-Semantic versioning of this package is important, so that you don't introduce
-incompatible changes into your repositories.
-
-```
-import makeDefaultEvaluateOptions from '@agoric/default-evaluate-options';
-[...]
-const options = makeDefaultEvaluateOptions();
-const r = Realm.makeRootRealm(options);
-```
+This code has been moved into the `packages/default-evaluate-options`
+[subdirectory](https://github.com/Agoric/agoric-sdk/tree/master/packages/default-evaluate-options)
+of the monorepo in https://github.com/Agoric/agoric-sdk . All future
+development should happen there.
